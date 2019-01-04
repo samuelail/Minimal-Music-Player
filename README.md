@@ -4,3 +4,4 @@
 #### This UI was created on an iphone 8 screen and no constraint has been added so it should be run on an iphone 6,7,8 to ensure UI compatibility.
 
 ![image1-2](https://user-images.githubusercontent.com/34909046/50710160-3a124680-1038-11e9-9066-ec3f2063178d.png)
+![image2](https://user-images.githubusercontent.com/34909046/50710201-4eeeda00-1038-11e9-8c7c-9f66e23b64a3.png)
