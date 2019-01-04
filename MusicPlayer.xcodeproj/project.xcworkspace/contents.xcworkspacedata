@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TableViewExample.xcodeproj">
+      location = "self:/Users/owner/Desktop/Xcode Projects/TableViewExample/MusicPlayer.xcodeproj">
    </FileRef>
 </Workspace>

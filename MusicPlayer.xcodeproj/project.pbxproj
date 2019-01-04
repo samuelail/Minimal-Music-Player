@@ -14,6 +14,9 @@
 		F631568B21C33CC0009D94D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F631568921C33CC0009D94D3 /* LaunchScreen.storyboard */; };
 		F631569621C33CC0009D94D3 /* TableViewExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631569521C33CC0009D94D3 /* TableViewExampleTests.swift */; };
 		F63156A121C33CC0009D94D3 /* TableViewExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63156A021C33CC0009D94D3 /* TableViewExampleUITests.swift */; };
+		F63156AF21C352EB009D94D3 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63156AE21C352EB009D94D3 /* GradientView.swift */; };
+		F63C8C4521DEA7DE00907C43 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63C8C4421DEA7DE00907C43 /* PlayerViewController.swift */; };
+		F63C8C4F21DEC13C00907C43 /* SwiftyWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63C8C4E21DEC13C00907C43 /* SwiftyWaveView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,10 @@
 		F631569C21C33CC0009D94D3 /* TableViewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F63156A021C33CC0009D94D3 /* TableViewExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExampleUITests.swift; sourceTree = "<group>"; };
 		F63156A221C33CC0009D94D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F63156AE21C352EB009D94D3 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		F63C8C4421DEA7DE00907C43 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		F63C8C4E21DEC13C00907C43 /* SwiftyWaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyWaveView.swift; sourceTree = "<group>"; };
+		F63C8C5221DEC14700907C43 /* SwiftyWave.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyWave.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +104,11 @@
 		F631567F21C33CB6009D94D3 /* TableViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				F63C8C4C21DEC11F00907C43 /* Wave */,
 				F631568021C33CB6009D94D3 /* AppDelegate.swift */,
 				F631568221C33CB6009D94D3 /* ViewController.swift */,
+				F63C8C4421DEA7DE00907C43 /* PlayerViewController.swift */,
+				F63156AE21C352EB009D94D3 /* GradientView.swift */,
 				F631568421C33CB6009D94D3 /* Main.storyboard */,
 				F631568721C33CC0009D94D3 /* Assets.xcassets */,
 				F631568921C33CC0009D94D3 /* LaunchScreen.storyboard */,
@@ -123,6 +133,23 @@
 				F63156A221C33CC0009D94D3 /* Info.plist */,
 			);
 			path = TableViewExampleUITests;
+			sourceTree = "<group>";
+		};
+		F63C8C4C21DEC11F00907C43 /* Wave */ = {
+			isa = PBXGroup;
+			children = (
+				F63C8C4D21DEC12F00907C43 /* Classes */,
+				F63C8C5221DEC14700907C43 /* SwiftyWave.h */,
+			);
+			path = Wave;
+			sourceTree = "<group>";
+		};
+		F63C8C4D21DEC12F00907C43 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F63C8C4E21DEC13C00907C43 /* SwiftyWaveView.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,7 +231,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F631567821C33CB6009D94D3 /* Build configuration list for PBXProject "TableViewExample" */;
+			buildConfigurationList = F631567821C33CB6009D94D3 /* Build configuration list for PBXProject "MusicPlayer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -257,6 +284,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F631568321C33CB6009D94D3 /* ViewController.swift in Sources */,
+				F63C8C4F21DEC13C00907C43 /* SwiftyWaveView.swift in Sources */,
+				F63C8C4521DEA7DE00907C43 /* PlayerViewController.swift in Sources */,
+				F63156AF21C352EB009D94D3 /* GradientView.swift in Sources */,
 				F631568121C33CB6009D94D3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -549,7 +579,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F631567821C33CB6009D94D3 /* Build configuration list for PBXProject "TableViewExample" */ = {
+		F631567821C33CB6009D94D3 /* Build configuration list for PBXProject "MusicPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F63156A321C33CC0009D94D3 /* Debug */,
